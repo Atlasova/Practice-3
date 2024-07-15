@@ -13,4 +13,4 @@ function showProduct(product) {
   console.log(product);
 }
 
-showProduct("apple", 10, showProduct);
+makeProduct('apple', 10, showProduct);

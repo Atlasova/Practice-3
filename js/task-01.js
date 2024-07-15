@@ -3,8 +3,8 @@
 // greet(name) - колбек, що приймає ім"я та виводить у консоль рядок "Привіт < name > "
 // Потрібно реалізувати перевірку, що prompt не порожній
 function letMeSeeYourName(callback) {
-  const userName = promt("");
-  if (userName === "") {
+  const userName = prompt('');
+  if (userName === '') {
     return;
   }
   callback(userName);
